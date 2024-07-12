@@ -50,7 +50,6 @@ var weatherIconEls = [
 ];
 
 var weatherDisplayEl = document.getElementById("displayweather");
-var weatherIconEl = document.getElementById("weather-icon");
 
 
 var apiKey = "4019261bd78cd50daccdfd0a8e4719ed";
@@ -120,7 +119,7 @@ function displayWeather(data) {
     tempEls[j].textContent = "Temperature: " + temps[j] + "°C";
     humidEls[j].textContent = "Humidity: " + humids[j] + "%";
     windEls[j].textContent = "Wind Speed: " + winds[j] + "KM/H";
-    cityDayEl[j].textContent = "City Day: " + city + " " + dates[j].toLocaleDateString();
+    cityDayEl[j].textContent = "Day: " + city + " " + dates[j].toLocaleDateString();
   }
 }
 

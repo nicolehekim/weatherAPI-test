@@ -4,11 +4,26 @@
     padding:0;
 }
 
-#search-history{
-  font-size: 1.2rem;
-  color: rgba(15, 14, 14, 0.769);
-
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+#search-history{
+  font-size: .8rem;
+  color: rgba(15, 14, 14, 0.769);
+  background-color: rgb(182, 234, 253);
+}
+
+.history {
+    color: rgb(104, 104, 104)
+}
+
+#search-input {
+    margin-left: 60px;
+}
+
 #search-button {
   cursor: pointer;
 }
@@ -19,21 +34,31 @@
 header {
 color: white;
 text-align: center;
+font-family: "Alfa Slab One", serif;
 font-size: 1.5rem;
 display: flex;
 flex-direction: column; 
 justify-content: center; 
 align-items: center; 
-background-color: rgba(227, 93, 16, 0.234);
+background-color: rgba(31, 36, 88, 0.234);
 border: 1px solid rgba(255, 255, 255, 0.394);
 border-radius: 1rem; 
 text-align: center; 
-box-shadow: 0 0 10px rgb(227, 131, 72); 
+
 }
 
-.container{
-    padding: 20px 70px;
+main {
+    background-color: rgb(182, 234, 253);
 }
+
+.history {
+    font-family: "Alfa Slab One", serif;
+    
+}
+/* 
+.container{
+    padding: 10px 10px;
+} */
 
 .row {
   display: flex; 
