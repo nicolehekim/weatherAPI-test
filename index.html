@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather API Forecast</title>
+</head>
+<body>
+    <header id="header" class="container"><h1>Weather Forecast</h1></header>
+    <input type="text" id="search-input">
+    <button id="search-button">Search</button>
+    <div id="search-history">
+        <h2>Search History:</h2>
+        <ul id="city-history">
+        </ul>
+    </div>
+     <main id="weather-box" class="container" >
+        <section class="row justify-center">
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Current Weather Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="cityday"></p>
+                        <p id="cityname"></p>
+                      <p id="temp">Temperature:</p>
+                      <p id="humid">Humidity:</p>
+                      <p id="wind">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+        </section>
+
+        <section class="row">
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">One Day Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="cityday1"></p>
+                        <p id="cityname"></p>
+                      <p id="temp1">Temperature:</p>
+                      <p id="humid1">Humidity:</p>
+                      <p id="wind1">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Two Day Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="cityday2"></p>
+                        <p id="cityname"></p>
+                        <p id="temp2">Temperature:</p>
+                        <p id="humid2">Humidity:</p>
+                        <p id="wind2">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Three Day Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="cityday3"></p>
+                        <p id="temp3">Temperature:</p>
+                        <p id="humid3">Humidity:</p>
+                        <p id="wind3">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+      
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Four Day Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="cityday4"></p>
+                        <p id="temp4">Temperature:</p>
+                        <p id="humid4">Humidity:</p>
+                        <p id="wind4">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+    
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Five Day Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="cityday5"></p>
+                        <p id="temp5">Temperature:</p>
+                        <p id="humid5">Humidity:</p>
+                        <p id="wind5">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+        </section>
+
+    <script src="./assets/weather.js"></script>
+
+</body>
+</html>
